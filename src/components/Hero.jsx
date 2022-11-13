@@ -1,4 +1,6 @@
 import React from "react";
+import GetStarted from "./GetStarted";
+
 import styles from "../style";
 import { discount, robot } from "../assets";
 
@@ -28,6 +30,11 @@ const Hero = () => {
             <span className="text-gradient">Generation</span>
             <br className="sm:block hidden" /> Payment Method.
           </h1>
+
+          {/* Get Started Button */}
+          <div className="ss:flex hidden md:mr-4 mr-0">
+            <GetStarted />
+          </div>
         </div>
       </div>
     </section>
