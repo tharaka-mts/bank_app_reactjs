@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Defined themes for tailwindcss
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",

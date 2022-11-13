@@ -28,7 +28,6 @@ const Hero = () => {
             The Next
             <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Generation</span>
-            <br className="sm:block hidden" /> Payment Method.
           </h1>
 
           {/* Get Started Button */}
@@ -36,6 +35,26 @@ const Hero = () => {
             <GetStarted />
           </div>
         </div>
+
+        {/* Payment method description */}
+        <h1 className="text-white font-poppins font-semibold ss:text-[68px] text-[52px] ss:leading-[100px] leading-[75px] w-full">
+        Payment Method.</h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
+        We examine annual percentage rates, annual fees.
+        </p>
+      </div>
+
+      {/* Billing image */}
+      <div className={`flex flex-1 ${styles.flexCenter} relative`}>
+        <img src={robot} alt="billing" className="relative w-[100%] h-[100%] z-[5]" />
+        <div className="absolute w-[20%] h-[15%] top-0 z-[0] pink__gradient" />
+        <div className="absolute w-[80%] h-[80%] bottom-40 z-[1] rounded-full white__gradient" />
+        <div className="absolute w-[50%] h-[50%] right-20 bottom-20 z-[0] blue__gradient" />
+      </div>
+
+      <div className={`ss:hidden ${styles.flexCenter}`}>
+        <GetStarted />
       </div>
     </section>
   );
