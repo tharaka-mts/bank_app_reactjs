@@ -46,7 +46,7 @@ const Navbar = () => {
                 key={nav.id}
                 className={`font-poppins font-normal text-[16px] text-white ${
                   navLinks === navLinks.length - 1 ? "mr-0" : "mb-3"
-                } hover:text-cyan-300`}
+                } hover:text-gradient`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
