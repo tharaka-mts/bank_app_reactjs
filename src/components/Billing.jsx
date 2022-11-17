@@ -18,7 +18,7 @@ const Billing = () => (
     </div>
 
     {/* Paragraph texts */}
-    <div className={layout.sectionInfo}>
+      <div className={`${layout.sectionInfo} md:ml-[200px] sm:ml-[30px]`}>
         <h2 className={styles.heading2}> Easily control your <br className="sm:block hidden" /> billing & invoicing.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
