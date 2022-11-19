@@ -9,7 +9,7 @@ const Testimonials = () => (
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
   >
     {/* bg gradient */}
-    <div className="absolute z-[0] w-[100%] h-[100%] -right-[50%] opacity-60 rounded-full blue__gradient" />
+    <div className="absolute z-[0] w-[50%] h-[100%] -right-[15%] opacity-40 rounded-full blue__gradient" />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h1 className={styles.heading2}>
